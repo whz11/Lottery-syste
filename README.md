@@ -1,6 +1,6 @@
 # Lottery-system
 抽奖系统，基于springboot，mybatis，mysql
-
+抽奖算法根本没体现，用的就是随机取数据库的sql语句，所以这个系统应该算解析excel
 
 
 小白寒假任务，各个模块有参考他人代码，所以可能风格迥异，
