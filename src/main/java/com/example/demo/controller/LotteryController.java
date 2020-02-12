@@ -24,7 +24,7 @@ public class LotteryController {
     public String lotteryShow(){
 
         String result =null;
-        String sql = "SELECT * FROM user ORDER BY RAND() LIMIT 1";//SQL语句    输入表名information_test
+        String sql = "SELECT * FROM user ORDER BY RAND() LIMIT 1";//SQL语句  
         ResultSet rs = null;
         final String url = "jdbc:mysql://localhost:3306/springimport_excel?useSSL=false&useUnicode=true&characterEncoding=UTF-8";//输入数据库名test
         final String user = "root";//用户名
